@@ -1,6 +1,13 @@
 let projectId = 1
-let projectTitle = "Earthquake Map"
-let thumbnail = true
-let projectTitles = ["Earthquake Map", "Map of Earthquakes of magnitude 4.5 or greater"]
+let projectURL = 'https://www.arcgis.com/apps/MapTour/index.html?appid=ce38462206b14cd8afe4b39132726ea1'
+let projectTitle = "Tour of my life in Baton Rouge"
+let projectDesc = "An ArcGIS Online Web App showing the different homes and schools I have attended while living in Baton Rouge, Louisiana."
+let projectThumb = true
+let projectMapExtent = [48.51, -28.37, 2.63, -132.34]
 
-console.log(projectId)
+console.log('ID: ' + projectId)
+console.log('URL: ' + projectUrl)
+console.log('Title: ' + projectTitle)
+console.log('Description: ' + projectDesc)
+console.log('Has thumbnail? ' + projectThumb)
+console.log('Map extent: ' + projectMapExtent)
