@@ -1,24 +1,15 @@
 body {
   font-family: Helvetica, sans-serif;
 }
-<<<<<<< HEAD
-
-.subtitle {
-  color: #50815C
-}
 
 #masthead {
   text-align: center;
 }
 
-=======
 .subtitle {
   color: #50815C
 }
-#masthead {
-  text-align: center;
-}
->>>>>>> 6cfcf61ed41428c8f61d39f5388ebc31e41de4f9
+
 .thumbnail {
   width: 150px;
   height: 100px;
