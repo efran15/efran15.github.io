@@ -19,3 +19,19 @@ body {
   width: 200px;
   height: 200px;
 }
+
+article {
+  display: grid;
+  grid: "img meta" auto / 200px auto;
+  margin-bottom: 20px;
+}
+
+.article-img {
+  grid-area: img;
+  justify-self: center;
+}
+
+.article-meta {
+  grid-area: meta;
+  align-self: start;
+}
