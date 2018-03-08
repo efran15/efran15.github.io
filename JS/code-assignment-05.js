@@ -46,6 +46,14 @@ projectData[4] = {
   keywords: ['population', 'united states', 'arcgis online']
 }
 
+projectData[5] = {
+  id: 6,
+  url: 'https://emilyfranklin10.maps.arcgis.com/apps/webappviewer/index.html?id=097645e69a8a45aeb166224a43442624',
+  title: 'Things to do in New Orleans',
+  desc: 'An ArcGIS Online Web App interactive map showing different activites and places to go in New Orleans, Louisiana.',
+  thumb: true,
+  keywords: ['new orleans', 'united states', 'arcgis online']
+}
 for (let i=0; i < projectData.length; i++) {
   if (projectData[i].thumb === true) {
     console.log('images/book-assignment-0' + projectData[i].id + '.PNG' )
