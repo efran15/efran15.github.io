@@ -13,3 +13,11 @@ mymarker.bindPopup('Eiffel Tower')
 emilysmap.on('click', function (event) {
   console.log('You clicked the map at ' + event.latlng)
 })
+
+var latlngs = [
+    [48.858337,	2.294583],
+    [48.863574,	2.286944],
+    [48.869587,	2.285399]
+];
+
+var polyline = L.polyline(latlngs, {color: 'red'}).addTo(emilysmap)
