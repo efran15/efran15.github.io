@@ -1,4 +1,4 @@
-let emilysmap = L.map('MAP').setView([48.858958, 2.349533], 12)
+let emilysmap = L.map('MAP3').setView([48.858958, 2.349533], 12)
 
 L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png').addTo(emilysmap)
 
