@@ -1,4 +1,4 @@
-let emilysmap = L.map('MAP3').setView([48.858958, 2.349533], 12)
+let emilysmap = L.map('MAP').setView([48.858958, 2.349533], 12)
 
 L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png').addTo(emilysmap)
 
@@ -13,7 +13,8 @@ let mymarker = L.marker([48.858273, 2.294498], {icon: myicon}).addTo(emilysmap);
 
 let myPolyStyle = {
   color: 'green',
-  fillColor: 'yellow'
+  fillColor: 'yellow',
+  fillOpacity: 0.4
 }
 
 let PolyCoords = [
