@@ -1,0 +1,49 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+#masthead {
+  text-align: center;
+}
+
+.subtitle {
+  color: #D22B07
+}
+
+.thumbnail {
+  width: 150px;
+  height: 100px;
+}
+
+.logo {
+  width: 400px;
+  height: 200px;
+}
+
+.popupimage {
+  width: 200px;
+  height: 100px;
+}
+
+#MAP { height: 400px }
+
+.legend {
+  width: 100px;
+  height: 50px;
+}
+
+article {
+  display: grid;
+  grid: "img meta" auto / 50px auto;
+  margin-bottom: 20px;
+}
+
+.article-img {
+  grid-area: img;
+  justify-self: center;
+}
+
+.article-meta {
+  grid-area: meta;
+  align-self: start;
+}
