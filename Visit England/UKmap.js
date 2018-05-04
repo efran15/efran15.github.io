@@ -19,7 +19,7 @@ function createicon (feature, latlng) {
     iconAnchor:   [12, 12],
     popupAnchor:  [0, 0]
   })
-  return L.marker(latlng, { icon: myIcon })
+  return L.marker(latlng, { icon: emilyIcon })
 }
 
 
