@@ -8,16 +8,16 @@ let emilysmap3 = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/servic
 
 let emilysBasemaps = {
   'Open street map': emilysmap1,
-  'Open top map': emilysmap2,
-  'World Physical': emilysmap3,
+  'NatGeo World Map': emilysmap2,
+  'World Street Map': emilysmap3,
 }
 
 function createicon (feature, latlng) {
-  let myIcon = L.icon({
+  let emilyIcon = L.icon({
     iconUrl: 'icon.jpg',
-    iconSize:     [60, 60], // width and height of the image in pixels
-    iconAnchor:   [12, 12], // point of the icon which will correspond to marker's location
-    popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
+    iconSize:     [60, 60],
+    iconAnchor:   [12, 12],
+    popupAnchor:  [0, 0]
   })
   return L.marker(latlng, { icon: myIcon })
 }
